@@ -37,6 +37,14 @@ git status
 git add .
 git add nombreDelArchivo.extension
 ```
+* Crear el registro de los cambios realizados 
+```bash
+git commit -m "primer commit"
+```
 
+* Para ver una linea del tiempo de los commits q hemos realizado: 
+ ```bash
+ git log
+ ```
 
 
