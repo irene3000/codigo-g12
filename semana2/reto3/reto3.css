@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+.main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  
+   }
+.card{
+    background-color:  hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+.card>img{
+    
+    width: 330px;
+    padding: 25px;
+    border-radius: 12%;
+
+}
+h3{
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.parrafo{
+    color: hsl(215, 51%, 70%);
+    margin-top: 17px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.container{
+    margin-bottom: 20px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin-top: 18px;
+}
+.ethereum{
+    display: inline-flex;
+    margin-left: 25px;
+    justify-content: space-between;
+}
+.right{
+    display: inline-flex;
+    float:right;
+    margin-right: 20px;
+    margin-left: 140px;
+    justify-content: space-between;
+}
+.footer img{
+    width: 35px;
+    border:white solid 2px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer{
+    border-top: solid 1px hsl(215, 32%, 27%);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 25px;
+}
+.texto{
+    color: hsl(178, 100%, 50%);
+    font-size: 17px;
+
+}
+.tres{
+    float: right;
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 25px;
+    /* display: inline-flex; */
+}
+.primera{
+    color:hsl(215, 51%, 70%);
+}
+.segunda{
+    color: white;
+    justify-content: center;
+}
+.texto-footer{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    justify-content: space-between;
+}

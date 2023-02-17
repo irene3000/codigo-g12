@@ -6,20 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-
+<!-- <style>
+    p{
+        border: solid 1px red;
+        padding: 10px;
+    }
+</style>-->
 <body>
     <section>
-        <h1>Formularios</h1>
+        <h1 style="color: rgb(240, 12, 134);font-size: 60px;">Formularios</h1>
         <form action="">
             <p>
-                <input type="text" name="name" id="" placeholder="Ingresa tu nombre" required autocomplete="off" />
+                <input type="text"  class="form-input" name="name" id="" placeholder="Ingresa tu nombre" required autocomplete="off" />
             </p>
             <p>
-                <input type="email" name="email" id="" placeholder="Ingresa tu correo" readonly value="linder@gmail.com" />
+                <input type="email" class="form-input" name="email" id="" placeholder="Ingresa tu correo" readonly value="linder@gmail.com" />
             </p>
             <p>
-                <input type="password" name="password" id="" placeholder="Escribe una contraseña segura" disabled />
+                <input type="password" class="form-input" name="password" id="" placeholder="Escribe una contraseña segura" disabled />
             </p>
             <p>
                 <input type="file" accept="image/*" name="image" id="">
@@ -55,11 +61,10 @@
                 <input type="color" name="color" id="">
             </p>
             <p>
-                <button type="submit">Enviar datos</button>
+                <button id="boton-enviar" type="submit">Enviar datos</button>
             </p>
         </form>
     </section>
-
 </body>
 
 </html>
