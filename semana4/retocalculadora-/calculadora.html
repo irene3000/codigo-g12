@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+<body>
+    <div class="padre">
+        <div class="clase">
+            <div class="splitter">
+                <p>SPLI</p>
+                <p>TTER</p>
+            </div>
+        </div>
+        
+        <div class="main">
+            
+            <div class="entrada">
+                <div class="uno">
+                    
+                        <label for="bill">Bill</label>
+                        <input type="text" placeholder="$                                                  0" id="bill">
+                    
+                </div>
+    
+                <div class="dctos">
+                    
+                    <label for="">Select tip %</label>
+                    <div class="buttons">
+                        <div class="firstbuttons">
+                            <button>5%</button>
+                            <button>10%</button>
+                            <button>15%</button>
+                        </div>
+                        <div class="lastbuttons">
+                            <button>25%</button>
+                            <button>50%</button>                    
+                            <input type="text" class="custom" placeholder="Custom" />
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="tres">
+                    <form>
+                    <label for="number">Number of People</label>
+                    
+                    <div class="subtitle">
+                        <input class="icon-person" type="image" src="./images/icon-person.svg">
+                        <input class="lastinput" type="number" src="" placeholder="0" value="">
+                       
+                    </div>
+                    </form>
+                </div>
+                
+            </div>
+
+            <div class="resultados">
+                <div class="arriba">
+                    <div class="transparent">
+                        <h4>Tip Amount</h4>
+                        <p class="person">/person</p>
+                    </div>
+                    <p class="zero">$4.27</p>
+                </div>
+                <div class="abajo">
+                    <div class="transparent">
+                        <h4>Total</h4>
+                        <p class="person">/person</p>
+                    </div>
+                    <p class="zero">$32.79</p>
+                </div>
+                <div class="last">
+                    <button class="reset">RESET</button>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+</body>
+</html>
