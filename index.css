@@ -157,6 +157,7 @@ body {
 .challenges {
   gap: 40px;
   overflow-x: auto;
+  scroll-behavior: smooth;
 }
 
 .challenges::-webkit-scrollbar {
