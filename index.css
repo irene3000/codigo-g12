@@ -212,8 +212,9 @@ body {
 }
 
 .text-focus-in {
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+          animation-iteration-count: infinite;
 }
 
 .tracking-out-contract {
@@ -221,6 +222,7 @@ body {
 	        animation: tracking-out-contract 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
           animation-iteration-count: infinite;
 }
+
 /* Telefonos */
 
 @media screen and (max-width:480px) {

@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,100px);
+    border: gold 2px solid;
+}
+
+.grid-container div{
+    border: solid 1px rgb(154, 230, 154);
+}
