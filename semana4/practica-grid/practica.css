@@ -1,0 +1,55 @@
+h1{
+    /* text-align: center; */
+}
+/*----justify-items---------*/
+.justify-items{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    grid-gap:10px;
+    border: solid yellowgreen;
+    justify-items:legacy; /*valor por defecto : legacy*/
+
+}
+
+.justify-items div{
+    background-color: rgb(210, 135, 13);
+    
+}
+
+.justify-items div:nth-child(even){
+    background-color: khaki;
+    border: solid gold;
+}
+
+.justify-items div:nth-child(odd){
+    border: solid black;
+}
+
+/*----align-items----*/
+.align-items{
+
+}
+
+
+
+
+
+/*---justify-self---------*/
+.justify-self{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3,100px);
+    grid-gap:10px;
+    border: solid yellowgreen;
+}
+
+.justify-self div{
+    border: solid blue;
+}
+
+.justify-self div:nth-child(4){
+    /* background-color: red; */
+    align-self: center;
+}
+

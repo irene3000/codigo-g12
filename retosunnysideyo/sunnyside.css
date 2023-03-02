@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+/* font-family: 'Fraunces', serif; */
+    font-weight: 100;
+}
+
+.main{
+    height: 100vh;
+    /* width: 1440px; */
+    background: url(./image-header.jpg);
+    object-fit: scale-down;
+    /* display: flex;*/
+     /* justify-content: center; */
+     
+}
+
+nav{
+    /* border: solid; */
+    position: relative;
+    bottom: 800px;
+    /* border: gold solid 2px; */
+}
+
+.logo{
+    position: relative;
+    left: -190px;
+   
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid green; */
+    margin-top: 50px;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    right: -180px;
+}
+
+.contact{
+    color: hsl(212, 27%, 19%);
+    padding: 12px;
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+      /* font-family: 'Barlow', sans-serif; */
+      font-family: 'Fraunces', serif;
+}
+
+.contact:hover{
+    color: white;
+    background-color: skyblue;
+}
+
+nav ul li{
+    list-style:none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main >img{
+    width: 1440px;
+    
+   
+}
+
+h1{
+    position:relative;
+    top: -690px;
+    left: 390px;
+    color: white;
+    font-size: 53px;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Fraunces', serif;
+    letter-spacing: 10px;
+}
+
+.flecha img{
+    position: relative;
+    top:-588px;
+    left: 765px;
+}
+
+/*----SEGUNDO--------*/
+.second{
+    display: flex;
+    position: relative;
+    top:-263px;
+}
+
+.izquierdo{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-evenly   ;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid   ;     */
+    padding: 50px;
+    width: 50%;
+    
+}
+
+.izquierdo h2{
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    /* border: solid; */
+    position: relative;
+    left: -120px;
+    top: 90px;
+}
+
+.subtitle{
+    font-family: 'Fraunces', serif;
+}
+
+.paragraph{
+    color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.izquierdo p{
+    position: relative;
+    left: 140px;
+    color: hsl(210, 4%, 67%);
+    /* border: solid green; */
+    /* top: 350px; */
+    
+    /* font-family: 'Barlow', sans-serif; */
+}
+
+.izquierdo a{
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+    text-shadow: 0 10px 5px rgb(216, 223, 118);
+    /* border: solid; */
+    position: relative;
+    left: -120px;
+    top: -65px;
+}
+
+.izquierdo a:hover{
+    text-decoration: underline 7px rgb(200, 208, 82);
+    text-shadow: none;
+}
+
+.huevo{
+    /* width: 50%; */
+    /* height: 1000px; */
+    position: relative;
+    top: -5px;
+}
+
+/*---THIRD-----*/
+/* .third{
+    border: solid blue;
+    grid-template-columns: auto auto;
+    position: relative;
+    top: ;
+    
+} */
+.third div img{
+    width: 52.5%;
+    position: relative;
+    top: -267px;
+    display: grid;
+    border: rgb(81, 7, 81);
+    
+}
+
+.derecho{
+    /* border: solid green; */
+    width: 400px;
+  
+    grid-column: 2;
+
+    position: relative;
+    left: 904px;
+    position: relative;
+    top:-800px;
+    height: 520px;
+}
+
+.derecho h2 pre{
+    /* border: solid yellow; */
+    font-family: 'Fraunces', serif;
+    /* font-family: 'Barlow', sans-serif; */
+    font-size: 36px;
+    position: relative;
+    left: -120px;
+    top: 50px;
+}
+
+.derecho a{
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+    text-shadow: 0 10px 5px rgb(223, 164, 118);
+    /* border: solid red; */
+    position: relative;
+    top: 70px;
+    left: 28px;
+}
+
+.derecho a:hover{
+    text-decoration: underline 7px rgb(223, 164, 118);
+    text-shadow: none;
+}
+
+.third .paragraph{
+    /* border: solid rgb(220, 9, 203); */
+    position: relative;
+    top: 55px;
+    left: -60px;
+}
+/*----FOURTH----------*/
+.fourth{
+    /* border: solid; */
+    position: relative;
+    top:-788px;
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.cereza{
+    width: 798px;
+}
+
+.gd{
+    /* border: solid black; */
+    /* position: relative; */
+    left: -650px;
+    background-image: url(./../reto-sunnyside/images/desktop/image-graphic-design.jpg);
+    width: 797px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(167, 40%, 24%);
+}
+
+.ph{
+    /* border: solid indigo; */
+    /* position: relative; */
+    left: 800px;
+    top:-600px;
+    background-image: url(./../reto-sunnyside/images/desktop/image-photography.jpg);
+    width: 722px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  hsl(198, 62%, 26%);
+}
+
+.orange{
+    position: relative;
+    left:285px;
+    top: -665px;
+    height: 665px;
+    width: 725px;
+}
+
+h3{
+    /* border: solid yellow; */
+    font-family: 'Fraunces', serif;
+    font-size: 25px; 
+    position: relative;
+    top: 150px;
+}
+
+.parrafo{
+    /* border: solid green ; */
+    font-family: 'Barlow', sans-serif;
+    position: relative;
+    top: 200px;
+    left: -30px;
+    line-height: 25px;
+
+}
+
+/*--------QUINTO--------*/
+
+.quinto{
+    height: 100vh;
+    /* border: solid; */
+    position:relative;
+    top: -790px;
+}
+
+h4{
+    font-size: 20px;
+     font-family: 'Fraunces', sans-serif;
+    color:   hsl(210, 4%, 67%);
+    letter-spacing: 3px;
+    /* border: solid brown; */
+    text-align: center;
+    position: relative;
+    top: 155px;
+
+}
+
+.contenedor{
+    /* border: solid rgb(228, 14, 168); */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    gap:40px;
+}
+
+.quinto div img{
+    border-radius: 50%;
+    width: 65px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.container{
+    /* border: solid green; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.container p{
+    
+    font-size: 17px;
+    align-self: center;
+   color:hsl(213, 9%, 39%);
+    line-height: 28px;
+    /* border: solid; */
+    width: 330px;
+    margin-top: 60px;
+    
+}
+
+h5{
+    /* display: flex;
+    align-self: center; */
+    font-family: 'Fraunces', sans-serif;
+    font-size: 16px;
+    margin-top: 70px;
+
+}
+
+h6{
+    color:  hsl(210, 4%, 67%);
+    font-size: 13px;
+    margin-top: 14px;
+}
+
+/*----SEXTO-----------*/
+.sexto{
+    /* border: solid rgb(157, 255, 0) 2px; */
+    position: relative;
+    top: -810px;
+    height: 103vh;
+    background-color:hsl(167, 55%, 73%)
+    /* display:flex; */
+}
+
+.sexto .imagen{
+    width: 24.84%;
+    height: 450px;
+     ;
+}
+
+.logo-container{
+    /* border: solid rgb(102, 2, 2); */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+
+.ogo{
+    /* border: solid gold; */
+    height: 35px;
+    width: 160px;
+    align-self: center;
+    /* color: hsl(167, 40%, 24%); */
+    /* color: transparent; */
+    filter:invert();
+}
+
+/*---SETIMO---*/
+/* .setimo{
+    background-color:hsl(167, 55%, 73%) ;
+    border: solid brown;
+    height: 100vh;
+} */
+
+ul{
+    /* border: solid rgb(240, 108, 0); */
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+    top:50px;
+} 
+
+li{
+    list-style: none;
+}
+
+.links-bottom li a{
+   color:hsl(167, 40%, 24%)
+}
+
+.links-bottom li a:hover{
+    color: white;
+}
+
+.social-icons{
+    /* border: solid rgb(7, 41, 180); */
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    position: relative;
+    top: 125px;
+}
+
+.social-icons a img:hover{
+    background-color: white;
+    /* border: solid; */
+}
+
+@media screen and (max-width: 375px){
+    /* .main > img{
+        width: 100%;
+        object-fit:scale-down;
+
+    } */
+    .main{
+        height: 100vh;
+        /* width: 1440px; */
+        background: url(./../reto-sunnyside/images/mobile/image-header.jpg);
+        object-fit: scale-down;
+        /* display: flex;*/
+         /* justify-content: center; */
+         
+    }
+/* 
+    .logo{
+        min-width: 50%;
+        border: solid blue;
+        height: 30px;
+        width: 100px;
+    }
+
+    .izquierdo{
+        min-width: 100%;
+    }
+    .contenedor{
+        border: solid;
+        width: 100%;
+        align-self: center;
+    }
+
+    .gd{
+        min-width: 100%;
+    }
+   
+    .second{
+        border: solid red;
+    }
+    .huevo{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+        border: solid seagreen;
+        display: block;
+        margin: auto;
+    } */
+}
