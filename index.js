@@ -86,3 +86,38 @@ btnBack.onclick = function () {
     left: slider,
   });
 };
+
+let miImage = document.querySelector(".img-profile");
+miImage.onclick = function () {
+    let miSrc = miImage.getAttribute('src');
+    if (miSrc === 'images/img001.jpg') {
+      miImage.setAttribute('src','images/ñ.jpg');
+    } else {
+      miImage.setAttribute('src', 'images/img001.jpg');
+    }
+}
+//Saludo de bienvenida al usuario
+let miBoton = document.querySelector('button');
+let miTitulo = document.querySelector( '.saludo-bienvenida');
+
+function estableceNombreUsuario() {
+  let miNombre = prompt('Por favor, ingresa tu nombre.');
+  if(!miNombre) {
+    estableceNombreUsuario();
+  } else {
+    localStorage.setItem('nombre', miNombre);
+    miTitulo.innerHTML = 'Bienvenid@ a mi pagina, ' + miNombre;
+  }
+}
+
+if (!localStorage.getItem('nombre')) {
+  estableceNombreUsuario();
+}
+else {
+  let nombreAlmacenado = localStorage.getItem('nombre');
+  miTitulo.textContent = 'Bienvenid@ a mi pagina , ' + nombreAlmacenado;
+}
+
+miBoton.onclick = function() {
+  estableceNombreUsuario();
+}

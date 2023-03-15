@@ -98,7 +98,7 @@ body {
   width: 243px;
   height: 243px;
   object-fit: cover;
-  transform: scale(1.5) rotate(10turn);
+  transform: scale(1.5) rotate(1turn);
   transition: transform 1.5s;
 }
 
