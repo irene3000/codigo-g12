@@ -12,10 +12,11 @@ const searchPokemon = event =>{
 }
 
 const renderPokemonData= data =>{
-    const sprite =data.sprites.front_default;
+    const sprite =data.sprites.other.home.front_default;
     
     pokeName.textContent=data.name;
     pokeImg.setAttribute('src',sprite);
 }
 
 searchPokemon();
+ 

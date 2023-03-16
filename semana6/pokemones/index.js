@@ -20,8 +20,6 @@ function renderPokemons(pokemons) {
 
 getPokemons();
 
-//console.dir(document);//es lo q el gordito de los videos 
-//estaba explicando
 
 
 

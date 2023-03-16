@@ -223,6 +223,21 @@ body {
           animation-iteration-count: infinite;
 }
 
+button{
+  background-color: #ff6464;
+  color: #fff;
+  padding: 10px 30px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border:none;
+}
+
+button:hover{
+  background-color: #e1a1a1;
+  cursor: pointer;
+}
+
 /* Telefonos */
 
 @media screen and (max-width:480px) {
